@@ -11,6 +11,10 @@
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:800" rel="stylesheet">
   <script src="js/gomap.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6Sf8yy5AMFzEwLv0GAmKPIT6x9iqKgx8&callback=initMap"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="js/slider.js"></script>
 </head>
 
 <body>
@@ -61,14 +65,20 @@ Hopefully you’ll keep Incheon Songdo in your heart forever.
         <li>Central Park</li>
         <li>Yellow Sea</li>
       </ul>
-      <img src="media/songdo_02.jpg" alt="imgso2">
-      <img src="media/songdo_03.jpg" alt="imgso3">
-      <img src="media/songdo_04.jpg" alt="imgso4">
-    </div>
+	  <div class="slideshow">
+	    <ul class="slider">
+          <li><img src="media/songdo_02.jpg" alt="imgso2"></li>
+          <li><img src="media/songdo_03.jpg" alt="imgso3"></li>
+          <li><img src="media/songdo_04.jpg" alt="imgso4"></li>
+        </ul>
+	  </div>
+	</div>
   </section>
   
-  <h2 class="s_title">Google Maps</h2>  
-  <div id="map"></div>
+  <section>
+    <h2 class="s_title">Google Maps</h2>  
+    <div id="map"></div>
+  </section>
   
   <footer class="foot">
     <ul>
