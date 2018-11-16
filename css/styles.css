@@ -110,7 +110,7 @@ body {
   color: purple;
  }
 
- .center
+ .photo
 {
   float : none;
   text-align: center;
@@ -220,7 +220,7 @@ body {
   float : none;
   list-style: none;
 }
-  
+
 #map {
   height: 550px;
   width: 70%;
@@ -320,7 +320,7 @@ body {
   text-align : left;
 }
 
-.center .vedio
+.photo .vedio
 {
   float : none;
   width: 70%;

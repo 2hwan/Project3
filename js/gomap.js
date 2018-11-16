@@ -11,7 +11,6 @@ function initMap(){
     }
   );
 
-        
   var marker1 = new google.maps.Marker({
     position: school,
     map: map
