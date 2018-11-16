@@ -5,9 +5,10 @@ function initMap(){
   var ICN = {lat:37.4487281, lng: 126.4500637};
   var yellowsea = {lat:37.376978, lng:126.579286};
   var outlet = {lat:37.381483, lng: 126.6549862};
+  var bridge = {lat:37.4136633, lng: 126.564332};
   var map = new google.maps.Map(
     document.getElementById('map'), {
-    zoom: 12, center: yellowsea
+    zoom: 12, center: bridge
     }
   );
 
@@ -38,6 +39,11 @@ function initMap(){
   
   var marker6 = new google.maps.Marker({
     position: outlet,
+    map: map
+  });
+  
+  var marker7 = new google.maps.Marker({
+    position: bridge,
     map: map
   });
 }
