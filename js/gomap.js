@@ -8,7 +8,7 @@ function initMap(){
   var bridge = {lat:37.4136633, lng: 126.564332};
   var map = new google.maps.Map(
     document.getElementById('map'), {
-    zoom: 13, center: bridge
+    zoom: 12.5, center: bridge
     }
   );
 
