@@ -7,7 +7,7 @@ function initMap(){
   var outlet = {lat:37.381483, lng: 126.6549862};
   var map = new google.maps.Map(
     document.getElementById('map'), {
-    zoom: 11, center: songdo
+    zoom: 12, center: songdo
     }
   );
 
